@@ -1,0 +1,26 @@
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.left {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.right input {
+    width: 100%;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.right #result {
+    background-color: #332703;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}

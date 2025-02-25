@@ -1,0 +1,25 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.left-section ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.left-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.right-section button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

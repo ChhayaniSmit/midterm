@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smit</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <div class="left-section">
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <button data-bs-theme-value="dark" id="dark-mode">Dark</button>
+                <button data-bs-theme-value="light" id="light-mode">Light</button>
+                <button>Contact Me</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="grid-container">
+            <!-- First Row -->
+            <div class="left">
+                <p>Factorial Calculator.</p>
+                <p>n! = 1x2x3 ...xn.</p>
+                <p>e.g. 5! = 120.</p>
+            </div>
+            <div class="right">
+                <input type="number" id="number" placeholder="Enter a number">
+            </div>
+
+            <!-- Second Row -->
+            <div class="left">
+                <button id="calculate">Enter</button>
+            </div>
+            <div class="right">
+                <div id="result">Result will be shown here</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Smit. All rights reserved.</p>
+    </footer>
+
+    <script src="js/factorial.js"></script>
+    <script src="js/darkmodetoggle.js"></script>
+</body>
+</html>
